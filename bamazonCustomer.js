@@ -37,6 +37,9 @@ connection.connect(function(err) {
         message: "What would like to purchase? [Quit with Q]"
         }]).then(function(answer){
             var correct = false;
+            if(answer.choice.toUpperCase()=="Q"){
+                process.exit();
+            }
             for(var i=0;i<res.length;i++){
                 if(res[i].product_name==answer.choice){
                     correct=true;
@@ -65,7 +68,11 @@ connection.connect(function(err) {
                 }
             })
          }
-      }
+        }
+            if (i==res.length && correct==false) {
+            console.log("Not a valid selection!");
+            promptCustomer(res);    
+        }
     })
 }
   
