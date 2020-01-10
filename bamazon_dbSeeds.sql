@@ -3,7 +3,7 @@ CREATE DATABASE bamazon_db;
 
 USE bamazon_db;
 
-CREATE TABLE store (
+CREATE TABLE products (
 	item_id INT AUTO_INCREMENT NOT NULL,
     product_name VARCHAR(100) NOT NULL,
     department_name VARCHAR(100) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE store (
 	primary key (item_id)
 );
 
-INSERT INTO store (product_name, department_name, price, stock_quantity)
+INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("BOB Rambler Jogging Stroller ", "Baby Travel Gear", 299.99, 70), 
         ("Munchkin Warm Glow Wipe Warmer", "Diaper Wipes & Refills", 24.70, 92), 
         ("Huggies Snug & Dry Baby Diapers", "Disposable Diapers", 42.53, 650), 
@@ -24,4 +24,4 @@ VALUES ("BOB Rambler Jogging Stroller ", "Baby Travel Gear", 299.99, 70),
         ("Loulou Lollipop Llama Soft Silicone Teether", "Baby Teether Toys", 26.00, 30), 
         ("Fisher-Price Rock-a-stack and Baby's First Blocks Bundle", "Sorting & Stacking Toys", 14.75, 645);
 
-SELECT * FROM store;
+SELECT * FROM products;
