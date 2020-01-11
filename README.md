@@ -42,12 +42,11 @@ App starts by displaying all available items to purchase in a table. The applica
 ### Screenshots and Additional Information
 
 Customer User Experience | Results
----- | -------------
-Customer Entry, with prompts on desire to start shopping | (/images/updatedInventory.png)
-If the user decides to shop at Bamazon, the current inventory is displayed | ![Customer Inventory](/images/updatedInventory.png)
-The user is then prompted to answer a few questions about the item that they want to purchase and if enough stock of that item exists, then the purchase will be successful and the total cost of the purchase will be displayed | ![Customer Purchase](/images/customerPurchase.JPG)
-If the user tries to buy an item but the stock is too low to meet their needs, they will be notified that thier purchase has not been successful and will be asked if they want to shop again | ![Customer Low Inventory](/images/customerLowInventory.JPG)
-Once the user is done with all of their shopping, they may select to leave the store, this action terminates the connection with MySQL | ![Customer End](/images/customerEnd.JPG)
+----------- | -------------
+The user starts with a command `node bamazonCustomer.js`. Bamazon's the current inventory is displayed | ![Customer Inventory](/images/inventory.png)
+The user is then prompted to answer a few questions about the item that they want to purchase (name of the product and quantity needed). If enough stock of that item exists, then the purchase will be successful and updated inventory will be displayed | ![Customer Purchase](/images/updatedInventory.png)
+If the user tries to buy an item but the stock is too low to meet their needs, they will be notified that their purchase has not been successful and will be asked if they want to shop again | ![Customer Low Inventory](/images/lowInventory.png)
+Once the user is done with all of their shopping, they may select `Q` to leave the store, this action terminates the connection with MySQL | ![Customer End](/images/zExit.png)
 
-===================================================================
+
 

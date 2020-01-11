@@ -81,7 +81,7 @@ var promptCustomer = function(res) {
       {
         type: "input",
         name: "choice",
-        message: "What would like to purchase? [Quit with Q]"
+        message: "What would like to purchase? [Enter the name of the item] or [Quit with Q]"
       }
     ])
     .then(function(answer) {
