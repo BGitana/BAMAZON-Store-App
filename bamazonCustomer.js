@@ -1,6 +1,6 @@
 var inquirer = require("inquirer");
 var mysql = require("mysql");
-// var conTable = require ("console.table");
+var conTable = require ("console.table");
 
 var connection = mysql.createConnection({
     // Your port; if not 3306
