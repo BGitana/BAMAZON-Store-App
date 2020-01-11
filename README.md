@@ -43,7 +43,7 @@ Customer User Experience | Results
 ----------- | -------------
 :arrow_right: The user starts with a command `node bamazonCustomer.js`. Bamazon's the current inventory is displayed | ![Customer Inventory](/images/inventory.png)
 :arrow_right: The user is then prompted to answer a few questions about the item that they want to purchase (name of the product and quantity needed). If enough stock of that item exists, then the purchase will be successful and updated inventory will be displayed | ![Customer Purchase](/images/updatedInventory.png)
-:arrow_right: If the user tries to buy an item but the stock is too low to meet their needs, they will be notified that their purchase has not been successful and will be asked if they want to shop again | ![Customer Low Inventory](/images/lowInventory.png)
+:arrow_right: If the user tries to buy an item but the stock is too low to meet their needs, they will be notified that their purchase has not been successful and will be asked if they want to continue shopping| ![Customer Low Inventory](/images/lowInventory.png)
 :arrow_right: Once the user is done with all of their shopping, they may select `Q` to leave the store, this action terminates the connection with MySQL | ![Customer End](/images/zExit.png)
 
 
