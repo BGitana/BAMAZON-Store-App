@@ -2,7 +2,7 @@
 
 ### Overview
 
-BAMAZON is an command prompt (CLI) shopping platform. A Node.JS, CLI application that allows the user to engage in online ordering with data persistence via MySQL. This application also incorporates Inquirer in order to facilitate user movement through the online store in a clean and concise way. 
+BAMAZON is a command line interface shopping platform. A Node.JS, CLI application that allows the user to engage in online ordering with data persistence via MySQL. This application also incorporates Inquirer in order to facilitate user movement through the online store in a clean and concise way. 
 
 ### BAMAZON's Commands
 
